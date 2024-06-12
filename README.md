@@ -1,3 +1,3 @@
-PRODIGY INFOTECH INTERNSHIPS
+prodigy infotech internship
 task2-
 stopwatch web application
