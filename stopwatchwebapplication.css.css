@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:lightcyan;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 1em;
+}
+
+.controls button#startStop {
+    background-color: green;
+    color: white;
+}
+
+.controls button#startStop.pause {
+    background-color: red;
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+#laps li {
+    margin: 5px 0;
+}
